@@ -8,5 +8,6 @@ if [ -x "$(command which ag)" ]; then
   #   -R (-R or --RAW-CONTROL-CHARS) For handling ANSI colors
   #   -F (-F or --quit-if-one-screen) Auto exit if <1 screen
   #   -X (-X or --no-init) Disable termcap init & deinit
-  alias ag='ag --smart-case --pager="less -MIRFX"'
+  alias ag='ag --smart-case'
+  alias ag='agp --smart-case --pager="less -MIRFX"'
 fi
