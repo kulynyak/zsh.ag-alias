@@ -9,5 +9,5 @@ if [ -x "$(command which ag)" ]; then
   #   -F (-F or --quit-if-one-screen) Auto exit if <1 screen
   #   -X (-X or --no-init) Disable termcap init & deinit
   alias ag='ag --smart-case'
-  alias ag='agp --smart-case --pager="less -MIRFX"'
+  alias agp='ag --smart-case --pager="less -MIRFX"'
 fi
